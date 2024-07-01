@@ -10,7 +10,7 @@ const username = fs.readFileSync('github_username.txt', 'utf8').trim()
 
 module.exports = {
     SESSION_ID:  process.env.SESSION_ID,    
-    BOT_NUMBER:  process.env.BOT_NUMBER,
+    BOT_NUMBER:  '94743548986',
     GITHUB_USERNAME: username,
-    GITHUB_AUTH_TOKEN: process.env.GITHUB_AUTH_TOKEN,
+    GITHUB_AUTH_TOKEN: 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',
 };
